@@ -1,14 +1,38 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Board extends JPanel {
+public class Board extends JPanel implements ActionListener {
 
     public Board (Game game){
 
         setPreferredSize(new Dimension(800, 600));
 
-        setBackground(Color.GRAY);
+        setBackground(Color.WHITE);
 
     }
 
+
+
+    public setup(){
+
+
+
+    }
+
+    public checkCollisions(){
+
+
+
+    }
+
+    public void paintComponent(Graphics g){
+        super.paintComponent(g);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+
+    }
 }
