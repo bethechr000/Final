@@ -14,20 +14,6 @@ public class Board extends JPanel implements ActionListener {
 
     }
 
-
-
-    public setup(){
-
-
-
-    }
-
-    public checkCollisions(){
-
-
-
-    }
-
     public void paintComponent(Graphics g){
         super.paintComponent(g);
     }
