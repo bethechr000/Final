@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class Board extends JPanel implements ActionListener {
 
+    private Color colors[] ={Color.WHITE, Color.RED, Color.BLUE, Color.GREEN, Color.YELLOW};
     public Board (Game game){
 
         setPreferredSize(new Dimension(800, 600));
