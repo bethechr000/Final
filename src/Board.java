@@ -16,6 +16,12 @@ public class Board extends JPanel implements ActionListener {
 
     public void paintComponent(Graphics g){
         super.paintComponent(g);
+
+        int width = getWidth();
+        int height = getHeight();
+        int dy = getHeight()/15;
+        int dx = getWidth()/15;
+
     }
 
     @Override
