@@ -22,6 +22,22 @@ public class Board extends JPanel implements ActionListener {
         int dy = getHeight()/15;
         int dx = getWidth()/15;
 
+        g.setColor(Color.BLUE);
+        g.fillRect(0,0,(width * 2)/5, (height * 2)/5 );
+
+        g.setColor(Color.RED);
+        g.fillRect((width * 3)/5, 0, width, (height * 2)/5 );
+
+        g.setColor(Color.YELLOW);
+        g.fillRect(0, (height * 3)/5, (width * 2)/5, height);
+
+        g.setColor(Color.GREEN);
+        g.fillRect((width * 3)/5, (height * 3)/5, width, height);
+
+        g.setColor(Color.WHITE);
+        g.fillRect((width/15)  * 12 , (height/15) * 12 ,(width/15)  * 4 , (height/15) * 4);
+
+
     }
 
     @Override
