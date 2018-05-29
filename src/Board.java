@@ -8,7 +8,7 @@ public class Board extends JPanel implements ActionListener {
     private Color colors[] ={Color.WHITE, Color.RED, Color.BLUE, Color.GREEN, Color.YELLOW};
     public Board (Game game){
 
-        setPreferredSize(new Dimension(800, 600));
+        setPreferredSize(new Dimension(600,800));
 
         setBackground(Color.WHITE);
 
@@ -37,6 +37,8 @@ public class Board extends JPanel implements ActionListener {
         g.setColor(Color.WHITE);
         g.fillRect((width/15)  * 12 , (height/15) * 12 ,(width/15)  * 4 , (height/15) * 4);
 
+        g.setColor(Color.WHITE);
+        g.fillRect((width/15) *10, (height/15), (width/15) * 4, (height/15) * 4);
 
     }
 
