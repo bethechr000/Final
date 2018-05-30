@@ -2,9 +2,10 @@ import java.util.Random;
 
 public class Dice {
 
+
     private final static int numberOfSides = 6;
 
-    int rollDice() {
+    int rollDice () {
 
         int result;
         Random randomNumberGenerator = new Random();
@@ -12,6 +13,6 @@ public class Dice {
         return result;
     }
 
-
 }
+
 

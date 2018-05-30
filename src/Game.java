@@ -3,6 +3,7 @@ import javax.swing.*;
 public class Game extends JFrame{
 
     private Board board;
+    private Dice dice;
 
     public Game () {
         setResizable(false);
@@ -12,6 +13,7 @@ public class Game extends JFrame{
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         board = new Board(this);
         add(board);
+        dice = new Dice();
         setLocationRelativeTo(null);
 
     }
@@ -19,6 +21,7 @@ public class Game extends JFrame{
     public static void main (String[] args){
 
        Game game = new Game();
+
     }
 
 }
